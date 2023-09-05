@@ -1,0 +1,38 @@
+c = input()
+import time
+
+
+import math
+
+
+admin = False
+
+
+num1 = 0 
+
+
+num2 = 0 
+while admin == False:
+ 
+ num1, sym, num2 = input(">> ")
+ 
+
+
+ 
+ if sym == "+":
+  sum = int(num1) + int(num2)
+  print(sum)
+
+
+ if sym == "-":
+  sum = int(num1) - int(num2)
+  print(sum)
+
+
+ if sym == "/":
+  sum = int(num1) / int(num2)
+
+
+ if sym == "x"or"*":
+  sum = int(num1) * int(num2)
+  print(sum)
